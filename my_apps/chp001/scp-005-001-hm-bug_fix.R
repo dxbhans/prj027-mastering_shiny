@@ -5,7 +5,7 @@ library(ggplot2)
 datasets <- c("economics", "faithfuld", "seals")
 
 ui <- fluidPage(
-  selectInput("dataset", "Dataset", choices = datasets),
+  selectInput(inputId = "dataset", label = "Dataset", choices = datasets),
   verbatimTextOutput("summary"),
   plotOutput("plot")
 )
