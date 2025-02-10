@@ -13,3 +13,5 @@ README.html
 cran-logs
 shiny_bookmarks
 scaling-testing
+
+*.Rproj
